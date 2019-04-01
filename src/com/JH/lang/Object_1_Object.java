@@ -28,6 +28,12 @@ public class Object_1_Object {
 		System.out.println(r);
 	
 		System.out.println(String.valueOf(str2));
+		
+		ss = "iu-choa-suji-hani";
+		String [] names = ss.split("-");
+		for(int i = 0 ; i<names.length; i++) {
+			System.out.println(names[i]);
+		}
 	}
 
 }
