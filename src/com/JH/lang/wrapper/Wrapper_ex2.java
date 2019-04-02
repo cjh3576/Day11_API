@@ -22,12 +22,11 @@ public class Wrapper_ex2 {
 		
 		Scanner sc = new Scanner(System.in);
 		String jumin = sc.next();
-		
-		
-		
-		
+	
 		check = jumin.substring(13);
 		check2 = Integer.parseInt(check);
+		
+		
 		
 		for(int i = 0; i<jumin.length()-1; i++) {
 			p=jumin.charAt(i);
@@ -37,7 +36,6 @@ public class Wrapper_ex2 {
 				total = total + (a *j);
 				j++;
 				if(j==10) j = 2;
-				
 			}
 		}//for
 		
@@ -58,6 +56,5 @@ public class Wrapper_ex2 {
 		else {
 			System.out.println("비정상2");
 		}
-		
 	}//method
 }

@@ -7,10 +7,11 @@ public class WrapperMain {
 //		ex.ex1();
 //		ex.ex2();
 		
-		Wrapper_ex2 ex = new Wrapper_ex2();
-		ex.ex1();
-		
-		
+//		Wrapper_ex2 ex = new Wrapper_ex2();
+//		ex.ex1();
+	Wrapper_ex3 ex = new Wrapper_ex3();
+	ex.ex1();
+	
 	}
 
 }
