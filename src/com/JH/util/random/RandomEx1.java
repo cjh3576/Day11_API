@@ -11,7 +11,7 @@ public class RandomEx1 {
 		}
 	}
 	
-	public void ex2() {
+	public void ex2() { 
 		int [] lotto = new int[6];
 		Random r = new Random();
 		
